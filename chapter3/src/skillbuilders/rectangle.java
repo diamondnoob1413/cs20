@@ -30,7 +30,7 @@ public class rectangle
 		System.out.println("the width is: " + width);
 		System.out.print("the length is: " + length);
 		
-		//Riley 
+		 
 	}
 
 }
