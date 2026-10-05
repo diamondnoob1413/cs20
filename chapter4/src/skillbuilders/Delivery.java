@@ -32,7 +32,7 @@ public class Delivery {
 				number = height + width + length;
 		//get the reject message or get the clear
 				if (number > 10) {System.out.println("reject");	}
-				if (number < 11) {System.out.println("your total is"); System.out.println(number);	}
+				if (number <= 10) {System.out.println("your total is"); System.out.println(number);	}
 				
 				
 				
