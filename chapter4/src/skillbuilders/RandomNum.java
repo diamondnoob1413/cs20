@@ -63,7 +63,7 @@ enter the min number
 13123
 enter the max number
 11221313
-random number: 7167039
+random number: 7167038
 
 
 
