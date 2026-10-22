@@ -1,24 +1,39 @@
 package skillbuilders;
 
-public class DemoMethods {
+public class DemoMethods 
+{
 
 	public static void main(String[] args) 
 	{
+		//Method 1
+		displayMessage();
 		
+		//Method 2
+		greetStudent("Kyle");
 		
-
+		//Method 3
+		int total = addNumbers(3, 45);
+		System.out.println("total is: " + total);
+		
+		//Method 4
+		double area = calculateArea(3.56);
+		System.out.println("area: " + area);
+		
+		//Method 5
+		boolean result = isPassing(49);
+		System.out.println("passing: " + result);
 	}
 
 	//method 1:no parameters, no return value
 	public static void displayMessage()
 	{
-		System.out.println("welcome to our class.");
+		System.out.println("welcome to math class.");
 	}
 	
 	//method 2: One parameter; no return value
 	public static void greetStudent(String name)
 	{
-		System.out.println("hello,"+ name);
+		System.out.println("hello, "+ name);
 	}
 	
 	//Method 3: Two parameters, return integer

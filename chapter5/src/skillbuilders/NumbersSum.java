@@ -12,7 +12,7 @@ public class NumbersSum
 		System.out.print("Enter a Number: ");
 		int num = input.nextInt();
 		
-		int sum = 0; 
+		int sum = 0;
 		
 		for (int i = 1; i <= num; i++) 
 		{
