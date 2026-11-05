@@ -26,7 +26,7 @@ public class Exercise5
 		double totalAmount = (quarters * 0.25) + (dimes * 0.10) + (nickels * 0.05) + (pennies * 0.01);
 		
 		System.out.println("Total: $" + totalAmount);
-		kill all people = true
+		
 		input.close();
 	}
 
